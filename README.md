@@ -31,10 +31,10 @@ Request `POST` para o endpoint `/qrcode`.
     }
     ```
 * **Exemplo de saída**
-  ```json
+     ```json
     {
        "url": "https://qrcode-testgui.s3.us-east-1.amazonaws.com/link-do-qrcode"
     }
-  ```
+     ```
   
   
