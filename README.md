@@ -27,13 +27,13 @@ Request `POST` para o endpoint `/qrcode`.
 * **Corpo da Requisição (Request Body):**
     ```json
     {
-      "text": "link do website"
+      "text": "https://link-do-site.com"
     }
     ```
 * **Exemplo de saída**
   ```json
     {
-    "url": "https://qrcode-testgui.s3.us-east-1.amazonaws.com/link-do-qrcode"
+       "url": "https://qrcode-testgui.s3.us-east-1.amazonaws.com/link-do-qrcode"
     }
   ```
   
